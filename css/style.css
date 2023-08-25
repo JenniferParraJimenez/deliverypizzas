@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contenedorheader{
+
+    background:#222222;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 110px;
+    
+}
+.rojo{
+    color: green;
+}
+.verde{
+    color: red;
+}
+.imgh {
+    position: relative;
+    left: -7%;
+}
+.h1 {
+    position: relative;
+    right: 24%;
+}
+
+.contenedorheader nav{
+    width: 25%;
+    position: relative;
+    right: -8%;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    }
+.contenedorheader ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+.contenedorsection {
+    border: solid black 1px;
+    display: flex;
+    height: 500px;
+    justify-content:center;
+    align-items: center;
+    background: #F3F3F3;
+}
+
+.columna1 {
+
+    height: 380px;
+    width: 45%;
+    background-image: url(../img/delivery.jpg);
+    background-size: cover;
+    color: white;
+    border-radius: 10px;
+    font-size: 17px;
+    margin: 5px;
+}
+.columna1 h2 {
+    position: relative;
+    left:3%;
+    top: 6%;
+}
+.columna2{
+
+    height: 380px;
+    width: 45%;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+
+.columna2 .contenido {
+    display: flex;
+    justify-content: space-around;
+    height: 120px;
+    line-height: 30px;
+    font-weight: bold;
+
+}
+.contenido h3{
+    font-size: 20px;
+    line-height: 50px;
+}
+.contenido{
+    position: relative;
+    top: 20%;
+}
+
+.contenido img{
+    position: relative;
+    top: 30%;
+}
+.columna2 h2{
+    position: relative;
+    top: 7%;
+    left: 35%;
+}
+
+
+.contenedorfooter{
+    background:#222222;
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+    
+}
+.contenedorfooter ul li {
+    display: block;
+    margin-bottom: 10px;
+    
+}
+.contenedorfooter nav{
+    position: relative;
+    right: -1.5%;
+}
+.imgf {
+    position: relative;
+    left: 32%;
+}
+.h2 {
+    position: relative;
+    right: 5%;
+}
